@@ -1,0 +1,60 @@
+.about{
+    min-height: 260px;
+    width: 74%;
+    padding:20px 2.5%;
+    background: url(../img/abbg.png) no-repeat right top #fff;
+    margin: 0 auto;
+    overflow: hidden;
+}
+.about > h3{
+    display: block;
+    margin: 0 0 10px;
+    padding: 0 10px 5px 0;
+    float: left;
+    border-bottom: black 1px dashed;
+    /*clear: both;*/
+    overflow: hidden;
+}
+.about > p{
+    display: block;
+    width: 100%;
+    float: left;
+}
+.about .me{
+    width: 100%;
+    margin: 20px 0;
+    overflow: hidden;
+}
+.about .me h2{
+    display: block;
+    margin: 20px 0 10px;
+}
+.about .me p{
+    display: block;
+    line-height: 1.5;
+    color: #666666;
+}
+.about .me .imgbox{
+    width: 100px;
+    height: 100px;
+    position: relative;
+    margin-right: 20px;
+    padding: 8px 0;
+    float: left;
+}
+.about .me .imgbox:before{
+    content: "";
+    background: url("../img/v.png");
+    background-size: 24px;
+    width: 24px;
+    height: 24px;
+    top: 79px;
+    left: 73px;
+    position: absolute;
+}
+.about .me .imgbox img{
+    border: #5ac8fa 3px solid;
+    border-radius: 50%;
+    width: 100%;
+    height: 100%;
+}

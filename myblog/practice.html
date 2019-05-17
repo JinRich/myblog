@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>practice</title>
+    <style>
+        ul{
+            display: block;
+            width: 302px;
+        }
+        li{
+            display: block;
+            border-right: black 1px dashed;
+            border-bottom: black 1px dashed;
+            /*border-radius: 80%;*/
+            width: 100px;
+            height: 100px;
+            float: left;
+            position: relative;
+        }
+        li:nth-child(3),li:nth-child(6),li:nth-child(9){
+            border-right: white 1px solid;
+            border-right: none;
+        }
+        li:nth-child(7),li:nth-child(8),li:nth-child(9){
+            border-bottom: white 1px solid;
+            border-bottom: none;
+        }
+        li:before{
+            content: "";
+            background: #ff2d55;
+            width: 30px;
+            height: 30px;
+            top: 0;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            margin: auto;
+            position: absolute;
+            border-radius: 50%;
+        }
+        li:hover:before{
+            background: #4cd964;
+        }
+        li:first-child:before,
+        li:nth-child(3):before,
+        li:nth-child(5):before,
+        li:nth-child(7):before,
+        li:nth-child(9):before{
+            background: #4cd964;
+        }
+        li:hover:first-child:before,
+        li:hover:nth-child(3):before,
+        li:hover:nth-child(5):before,
+        li:hover:nth-child(7):before,
+        li:hover:nth-child(9):before{
+            background: #ff2d55;
+        }
+        li:first-of-type:before{
+            background: #5ac8fa;
+        }
+        a{
+            display: block;
+            width: 10px;
+            height: 10px;
+            background: #ff2d55;
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+<ul>
+    <a href=""></a>
+    <a href=""></a>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+</ul>
+</body>
+</html>
