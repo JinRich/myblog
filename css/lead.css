@@ -1,0 +1,21 @@
+.lead{
+    width: 79%;
+    min-height: 150px;
+    background:#fff;
+    margin: 0 auto;
+    padding-top: 20px;
+}
+.lead > .down{
+    width: 96%;
+    padding:40px 2% 40px;
+    min-height: 30px;
+}
+.lead > .down > a.tab{
+    padding: 4px 30px;
+    border: #d5d5dc 1px solid;
+    color: #1a1c0e;
+}
+.lead > .down > a.tab:hover{
+    color: white;
+    background: #1a1c0e;
+}

@@ -1,0 +1,23 @@
+.leftdetail{
+    height: 100%;
+    width:74.5%;
+    float: left;
+    background: ghostwhite;
+    min-height: 500px;
+}
+.leftdetail >.up>.box>ul>li.local{
+    font-size: 14px;
+}
+.leftdetail >.down{
+    padding: 20px;
+}
+.leftdetail >.down>h2{
+    font-size: 22px;
+}
+.leftdetail >.down>.title{
+    height: 34px;
+    margin-top: 25px;
+    line-height: 34px;
+    font-size: 20px;
+    display: block;
+}
