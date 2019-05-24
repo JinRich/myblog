@@ -431,5 +431,5 @@ p.ti4 span,p.ti5 span{
     transition: all .6s ease;
 }
 .neck .box1,.neck .box2 .box,.neck .box3{
-    border-radius: 1%;
+    border-radius: 3px;
 }

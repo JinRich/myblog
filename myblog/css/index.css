@@ -146,9 +146,23 @@ a{
 }
 .neck .box1 .leftbutton{
     left: 50px;
+    opacity: 0;
+    transition: all .35s;
+}
+.neck .box1:hover .leftbutton{
+    left: 20px;
+    opacity: .9;
+    transition: all .35s;
 }
 .neck .box1 .rightbutton{
     right: 50px;
+    opacity: 0;
+    transition: all .35s;
+}
+.neck .box1:hover .rightbutton{
+    right: 20px;
+    opacity: .9;
+    transition: all .35s;
 }
 .neck .box1 ul{
     position: absolute;
@@ -241,6 +255,7 @@ a{
     background: ghostwhite;
     float: left;
     position: relative;
+    border-radius: 3px;
 }
 /*衣领的第二部分*/
 .collar .box2{
@@ -248,6 +263,7 @@ a{
     width: 23%;
     background: ghostwhite;
     float: right;
+    border-radius: 3px;
 }
 /*腿部*/
 .leg{
@@ -270,6 +286,7 @@ a{
     width: 100%;
     background: ghostwhite;
     margin-bottom: 20px;
+    border-radius: 3px;
 }
 /*左腿下的第二部分*/
 
@@ -279,6 +296,7 @@ a{
     padding: 20px 0;
     background: ghostwhite;
     margin-bottom: 20px;
+    border-radius: 3px;
 }
 .leftleg .box2 .imgbox{
     height: 130px;
@@ -305,6 +323,7 @@ a{
     /*height: 2500px;*/
     width: 100%;
     background: ghostwhite;
+    border-radius: 3px;
 }
 .leftleg .box3 > ul{
     width: 100%;
@@ -456,12 +475,14 @@ a{
     width: 100%;
     background: ghostwhite;
     margin-bottom: 20px;
+    border-radius: 3px;
 }
 .rightleg .box2{
     /*height: 730px;*/
     width: 100%;
     background: ghostwhite;
     margin-bottom: 20px;
+    border-radius: 3px;
 }
 .rightleg .box3{
     height: 170px;
@@ -469,12 +490,14 @@ a{
     width: 100%;
     background: ghostwhite;
     margin-bottom: 20px;
+    border-radius: 3px;
 }
 .rightleg .box4{
     /*height: 500px;*/
     width: 100%;
     background: ghostwhite;
     margin-bottom: 20px;
+    border-radius: 3px;
 }
 .rightleg .box5{
     height: 160px;
@@ -482,18 +505,21 @@ a{
     background: ghostwhite;
     margin-bottom: 20px;
     padding: 20px 0;
+    border-radius: 3px;
 }
 .rightleg .box6{
     /*height: 400px;*/
     width: 100%;
     background: ghostwhite;
     margin-bottom: 20px;
+    border-radius: 3px;
 }
 .rightleg .box7{
     height: 130px;
     width: 100%;
     background: ghostwhite;
     margin-bottom: 20px;
+    border-radius: 3px;
 }
 /*脚部*/
 .footer{
