@@ -3,6 +3,7 @@ a,h1,h2,h3,h4,h5,h6,p,ul,li,ol,body{
     margin: 0;
     list-style: none;
 }
+
 body{
     background: #EAEAEA;
     font-family: 微软雅黑,sans-serif;
@@ -232,7 +233,7 @@ a{
     float: right;
 }
 .neck .box3 h2{
-    margin: 10px 10px 30px;
+    margin: 14px 10px 26px;
     color: #bcbcbc;
     font-weight: normal;
 }
@@ -240,6 +241,45 @@ a{
     margin: 0 25px 10px;
     color: #f1f1f1;
     font-size: 12px;
+}
+.neck .box3 ul.tab{
+    height: 54px;
+    /*width: 100%;*/
+    padding: 15px 10px;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+}
+.neck .box3 ul.tab li{
+    height: 54px;
+    width: 54px;
+    background: #171719;
+    box-shadow: 0px 1px 0px rgba(255,255,255,.1), inset 0px 1px 1px rgba(0,0,0,.7);
+    border-radius: 50%;
+}
+.neck .box3 ul.tab li a{
+    height: 34px;
+    line-height: 54px;
+    text-align: center;
+    display: block;
+}
+.neck .box3 ul.tab li:hover{
+    filter: brightness(60%);
+}
+.neck .box3 ul.tab li a .iconfont{
+    font-size: 26px;
+}
+.neck .box3 ul.tab li a.z{
+    color: #ef5509;
+}
+.neck .box3 ul.tab li a.y{
+    color: #FF991A;
+}
+.neck .box3 ul.tab li a.q{
+    color: #1296DB;
+}
+.neck .box3 ul.tab li a.w{
+    color: #07AF12;
 }
 /*衣领*/
 .collar{
