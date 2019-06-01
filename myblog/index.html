@@ -8,6 +8,8 @@
     <link rel="stylesheet" href="css/active.css">
     <link rel="stylesheet" href="css/tag.css">
     <link rel="stylesheet" href="//at.alicdn.com/t/font_1210172_8yqza4wtfga.css">
+    <script src="js/index.js"></script>
+    <script src="js/animate.js"></script>
 </head>
 <body>
 <a name="top"></a>
@@ -32,8 +34,11 @@
 <!--脖子-->
 <div class="neck">
     <div class="box1">
-        <a href="123.html">
+        <a>
+            <img src="img/leftbox1.jpg" title="surprise motherfucker">
             <img src="img/leftbox2.jpg" title="surprise motherfucker">
+            <img src="img/leftbox3.jpg" title="surprise motherfucker">
+            <img src="img/leftbox4.jpg" title="surprise motherfucker">
         </a>
         <div class="leftbutton">
             <img src="img/left.png" alt="">
@@ -42,10 +47,10 @@
             <img src="img/right.png" alt="">
         </div>
         <ul class="point">
-           <li></li>
-           <li></li>
-           <li></li>
-           <li></li>
+           <li class="lipoint" style="background: rgb(18, 183, 222);"></li>
+           <li class="lipoint"></li>
+           <li class="lipoint"></li>
+           <li class="lipoint"></li>
         </ul>
     </div>
     <div class="box2">
@@ -83,8 +88,8 @@
     <div class="box1">
         <div class="up">
             <div class="box">
-                <ul>
-                    <li class="left">个人博客日记</li>
+                <ul class="banner">
+                    <li class="left" id="border">个人博客日记</li>
                     <li class="left">CSS|Html5</li>
                     <li class="left">网站建设</li>
                     <li class="left">推荐工具</li>
@@ -93,7 +98,7 @@
             </div>
         </div>
         <div class="down">
-            <div class="tab">
+            <div class="tab" id="show">
                 <ul>
                     <li class="box">
                         <a href="detail.html">
@@ -114,6 +119,98 @@
                     <li><a>这是一个象征性的标题</a><p>这是一段很长很长很长很长很长很长很长很长很长很长很长很长很长很长的内容,非常非常非常非常非常非常非常非常非常的长,长到这个框里写不下,并且会超出去变成省略号</p></li>
                     <li><a>这是一个象征性的标题</a><p>这是一段很长很长很长很长很长很长很长很长很长很长很长很长很长很长的内容,非常非常非常非常非常非常非常非常非常的长,长到这个框里写不下,并且会超出去变成省略号</p></li>
                     <li><a>这是一个象征性的标题</a><p>这是一段很长很长很长很长很长很长很长很长很长很长很长很长很长很长的内容,非常非常非常非常非常非常非常非常非常的长,长到这个框里写不下,并且会超出去变成省略号</p></li>
+                </ul>
+            </div>
+            <div class="tab">
+                <ul>
+                    <li class="box">
+                        <a href="detail.html">
+                            <img src="./img/h2.jpg" alt="">
+                            <div class="text">早买早享受，</div>
+                        </a>
+                    </li>
+                    <li class="box">
+                        <a href="detail.html">
+                            <img src="./img/h1.jpg" alt="">
+                            <div class="text">晚买享折扣。</div>
+                        </a>
+                    </li>
+                </ul>
+                <ul class="list">
+                    <li class="hot"><a>这是第二个象征性的标题</a><p>这是一段很长很长很长很长很长很长很长很长很长很长很长很长很长很长的内容,非常非常非常非常非常非常非常非常非常的长,长到这个框里写不下,并且会超出去变成省略号</p></li>
+                    <li><a>这是第二个象征性的标题</a><p>这是一段很长很长很长很长很长很长很长很长很长很长很长很长很长很长的内容,非常非常非常非常非常非常非常非常非常的长,长到这个框里写不下,并且会超出去变成省略号</p></li>
+                    <li><a>这是第二个象征性的标题</a><p>这是一段很长很长很长很长很长很长很长很长很长很长很长很长很长很长的内容,非常非常非常非常非常非常非常非常非常的长,长到这个框里写不下,并且会超出去变成省略号</p></li>
+                    <li><a>这是第二个象征性的标题</a><p>这是一段很长很长很长很长很长很长很长很长很长很长很长很长很长很长的内容,非常非常非常非常非常非常非常非常非常的长,长到这个框里写不下,并且会超出去变成省略号</p></li>
+                    <li><a>这是第二个象征性的标题</a><p>这是一段很长很长很长很长很长很长很长很长很长很长很长很长很长很长的内容,非常非常非常非常非常非常非常非常非常的长,长到这个框里写不下,并且会超出去变成省略号</p></li>
+                </ul>
+            </div>
+            <div class="tab">
+                <ul>
+                    <li class="box">
+                        <a href="detail.html">
+                            <img src="./img/h1.jpg" alt="">
+                            <div class="text">不买免费送，</div>
+                        </a>
+                    </li>
+                    <li class="box">
+                        <a href="detail.html">
+                            <img src="./img/h2.jpg" alt="">
+                            <div class="text">育碧永远我大哥。</div>
+                        </a>
+                    </li>
+                </ul>
+                <ul class="list">
+                    <li class="hot"><a>这是第三个象征性的标题</a><p>这是一段很长很长很长很长很长很长很长很长很长很长很长很长很长很长的内容,非常非常非常非常非常非常非常非常非常的长,长到这个框里写不下,并且会超出去变成省略号</p></li>
+                    <li><a>这是第三个象征性的标题</a><p>这是一段很长很长很长很长很长很长很长很长很长很长很长很长很长很长的内容,非常非常非常非常非常非常非常非常非常的长,长到这个框里写不下,并且会超出去变成省略号</p></li>
+                    <li><a>这是第三个象征性的标题</a><p>这是一段很长很长很长很长很长很长很长很长很长很长很长很长很长很长的内容,非常非常非常非常非常非常非常非常非常的长,长到这个框里写不下,并且会超出去变成省略号</p></li>
+                    <li><a>这是第三个象征性的标题</a><p>这是一段很长很长很长很长很长很长很长很长很长很长很长很长很长很长的内容,非常非常非常非常非常非常非常非常非常的长,长到这个框里写不下,并且会超出去变成省略号</p></li>
+                    <li><a>这是第三个象征性的标题</a><p>这是一段很长很长很长很长很长很长很长很长很长很长很长很长很长很长的内容,非常非常非常非常非常非常非常非常非常的长,长到这个框里写不下,并且会超出去变成省略号</p></li>
+                </ul>
+            </div>
+            <div class="tab">
+                <ul>
+                    <li class="box">
+                        <a href="detail.html">
+                            <img src="./img/h2.jpg" alt="">
+                            <div class="text">犹豫就会败北，</div>
+                        </a>
+                    </li>
+                    <li class="box">
+                        <a href="detail.html">
+                            <img src="./img/h1.jpg" alt="">
+                            <div class="text">果断就会白给。</div>
+                        </a>
+                    </li>
+                </ul>
+                <ul class="list">
+                    <li class="hot"><a>这是第四个象征性的标题</a><p>这是一段很长很长很长很长很长很长很长很长很长很长很长很长很长很长的内容,非常非常非常非常非常非常非常非常非常的长,长到这个框里写不下,并且会超出去变成省略号</p></li>
+                    <li><a>这是第四个象征性的标题</a><p>这是一段很长很长很长很长很长很长很长很长很长很长很长很长很长很长的内容,非常非常非常非常非常非常非常非常非常的长,长到这个框里写不下,并且会超出去变成省略号</p></li>
+                    <li><a>这是第四个象征性的标题</a><p>这是一段很长很长很长很长很长很长很长很长很长很长很长很长很长很长的内容,非常非常非常非常非常非常非常非常非常的长,长到这个框里写不下,并且会超出去变成省略号</p></li>
+                    <li><a>这是第四个象征性的标题</a><p>这是一段很长很长很长很长很长很长很长很长很长很长很长很长很长很长的内容,非常非常非常非常非常非常非常非常非常的长,长到这个框里写不下,并且会超出去变成省略号</p></li>
+                    <li><a>这是第四个象征性的标题</a><p>这是一段很长很长很长很长很长很长很长很长很长很长很长很长很长很长的内容,非常非常非常非常非常非常非常非常非常的长,长到这个框里写不下,并且会超出去变成省略号</p></li>
+                </ul>
+            </div>
+            <div class="tab">
+                <ul>
+                    <li class="box">
+                        <a href="detail.html">
+                            <img src="./img/h1.jpg" alt="">
+                            <div class="text">犹豫就会败北，</div>
+                        </a>
+                    </li>
+                    <li class="box">
+                        <a href="detail.html">
+                            <img src="./img/h2.jpg" alt="">
+                            <div class="text">果断就会白给。</div>
+                        </a>
+                    </li>
+                </ul>
+                <ul class="list">
+                    <li class="hot"><a>这是第五个象征性的标题</a><p>这是一段很长很长很长很长很长很长很长很长很长很长很长很长很长很长的内容,非常非常非常非常非常非常非常非常非常的长,长到这个框里写不下,并且会超出去变成省略号</p></li>
+                    <li><a>这是第五个象征性的标题</a><p>这是一段很长很长很长很长很长很长很长很长很长很长很长很长很长很长的内容,非常非常非常非常非常非常非常非常非常的长,长到这个框里写不下,并且会超出去变成省略号</p></li>
+                    <li><a>这是第五个象征性的标题</a><p>这是一段很长很长很长很长很长很长很长很长很长很长很长很长很长很长的内容,非常非常非常非常非常非常非常非常非常的长,长到这个框里写不下,并且会超出去变成省略号</p></li>
+                    <li><a>这是第五个象征性的标题</a><p>这是一段很长很长很长很长很长很长很长很长很长很长很长很长很长很长的内容,非常非常非常非常非常非常非常非常非常的长,长到这个框里写不下,并且会超出去变成省略号</p></li>
+                    <li><a>这是第五个象征性的标题</a><p>这是一段很长很长很长很长很长很长很长很长很长很长很长很长很长很长的内容,非常非常非常非常非常非常非常非常非常的长,长到这个框里写不下,并且会超出去变成省略号</p></li>
                 </ul>
             </div>
         </div>
@@ -265,7 +362,7 @@
                     <h3><b>【顶】</b>作为一个设计师,如果遭到质疑你是否能恪守自己的原则?</h3>
                     <div class="box">
                         <a href="detail.html">
-                            <img src="img/h2.jpg" alt="">
+                            <img aa="img/h2.jpg" alt="" class="lazy">
                             <div class="web">网站公告</div>
                         </a>
                     </div>
@@ -284,7 +381,7 @@
                     <h3><b>【顶】</b>十条设计原则教你学会如何设计网页布局!</h3>
                     <div class="box">
                         <a href="detail.html">
-                            <img src="img/h2.jpg" alt="">
+                            <img aa="img/h2.jpg" alt="" class="lazy">
                             <div class="web">网站公告</div>
                         </a>
                     </div>
@@ -303,7 +400,7 @@
                     <h3><b>【顶】</b>安静地做一个爱设计的女子</h3>
                     <div class="box">
                         <a href="detail.html">
-                            <img src="img/h2.jpg" alt="">
+                            <img aa="img/h2.jpg" alt="" class="lazy">
                             <div class="web">网站公告</div>
                         </a>
                     </div>
@@ -322,7 +419,7 @@
                     <h3><b></b>【个人博客空间申请】金牛云服，免费领空间啦</h3>
                     <div class="box">
                         <a href="detail.html">
-                            <img src="img/h2.jpg" alt="">
+                            <img aa="img/h2.jpg" alt="" class="lazy">
                             <div class="web">网站公告</div>
                         </a>
                     </div>
@@ -341,7 +438,7 @@
                     <h3><b></b>双十一，阿里云特惠活动，快来领券啦</h3>
                     <div class="box">
                         <a href="detail.html">
-                            <img src="img/h2.jpg" alt="">
+                            <img aa="img/h2.jpg" alt="" class="lazy">
                             <div class="web">网站公告</div>
                         </a>
                     </div>
@@ -360,7 +457,7 @@
                     <h3><b></b>第二届 优秀个人博客模板比赛参选活动</h3>
                     <div class="box">
                         <a href="detail.html">
-                            <img src="img/h2.jpg" alt="">
+                            <img aa="img/h2.jpg" alt="" class="lazy">
                             <div class="web">网站公告</div>
                         </a>
                     </div>
@@ -379,7 +476,7 @@
                     <h3><b></b>为什么说10月24日是程序员的节日？</h3>
                     <div class="box">
                         <a href="detail.html">
-                            <img src="img/h2.jpg" alt="">
+                            <img aa="img/h2.jpg" alt="" class="lazy">
                             <div class="web">网站公告</div>
                         </a>
                     </div>
@@ -398,7 +495,7 @@
                     <h3><b></b>个人网站做好了，百度不收录怎么办？来，看看他们怎么做的。</h3>
                     <div class="box">
                         <a href="detail.html">
-                            <img src="img/h2.jpg" alt="">
+                            <img aa="img/h2.jpg" alt="" class="lazy">
                             <div class="web">网站公告</div>
                         </a>
                     </div>
@@ -417,7 +514,7 @@
                     <h3><b></b>即便是坑，我也想要拉你入伙！</h3>
                         <div class="box">
                             <a href="detail.html">
-                                <img src="img/h2.jpg" alt="">
+                                <img aa="img/h2.jpg" alt="" class="lazy">
                                 <div class="web">网站公告</div>
                             </a>
                         </div>
@@ -436,7 +533,7 @@
                     <h3><b></b>我是怎么评价自己的？</h3>
                     <div class="box">
                         <a href="detail.html">
-                            <img src="img/h2.jpg" alt="">
+                            <img aa="img/h2.jpg" alt="" class="lazy">
                             <div class="web">网站公告</div>
                         </a>
                     </div>
@@ -455,7 +552,7 @@
                     <h3><b></b>【个人博客网站制作】自己不会个人博客网站制作，你会选择用什么博客程序源码？</h3>
                     <div class="box">
                         <a href="detail.html">
-                            <img src="img/h2.jpg" alt="">
+                            <img aa="img/h2.jpg" alt="" class="lazy">
                             <div class="web">网站公告</div>
                         </a>
                     </div>
@@ -523,9 +620,9 @@
                                 <img src="img/mini1.jpg">
                             </a>
                         </div>
-                        <dic class="textbox">
+                        <div class="textbox">
                             我现在这里有两行文本,很多很带劲,并且超出部分要变省略号
-                        </dic>
+                        </div>
                     </div>
                     <div class="minibox">
                         <div class="imgbox">
@@ -533,9 +630,9 @@
                                 <img src="img/mini2.jpg">
                             </a>
                         </div>
-                        <dic class="textbox">
+                        <div class="textbox">
                             你知道蔡徐坤打篮球吗?
-                        </dic>
+                        </div>
                     </div>
                     <div class="minibox">
                         <div class="imgbox">
@@ -543,9 +640,9 @@
                                 <img src="img/mini3.jpg">
                             </a>
                         </div>
-                        <dic class="textbox">
+                        <div class="textbox">
                             你知道波澜哥唱波澜吗?
-                        </dic>
+                        </div>
                     </div>
                     <div class="minibox">
                         <div class="imgbox">
@@ -553,9 +650,9 @@
                                 <img src="img/mini4.jpg">
                             </a>
                         </div>
-                        <dic class="textbox">
+                        <div class="textbox">
                             你知道面筋哥的店铺吗?
-                        </dic>
+                        </div>
                     </div>
                     <div class="minibox">
                         <div class="imgbox">
@@ -563,9 +660,9 @@
                                 <img src="img/mini5.jpg">
                             </a>
                         </div>
-                        <dic class="textbox">
+                        <div class="textbox">
                             你这些都知道?我不相信。
-                        </dic>
+                        </div>
                     </div>
                     <div class="minibox">
                         <div class="imgbox">
@@ -573,9 +670,9 @@
                                 <img src="img/mini6.jpg">
                             </a>
                         </div>
-                        <dic class="textbox">
+                        <div class="textbox">
                             你都知道,那我说个别的,
-                        </dic>
+                        </div>
                     </div>
                     <div class="minibox">
                         <div class="imgbox">
@@ -583,9 +680,9 @@
                                 <img src="img/mini7.jpg">
                             </a>
                         </div>
-                        <dic class="textbox">
+                        <div class="textbox">
                             你知不知道我喜欢你啊?
-                        </dic>
+                        </div>
                     </div>
                 </div>
             </div>

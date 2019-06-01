@@ -134,6 +134,12 @@ a{
 .neck .box1 img{
     height: 100%;
     width: 100%;
+    position: absolute;
+    top: 0;
+    left: 600px;
+}
+.neck .box1 img:first-child{
+    left: 0;
 }
 
 .neck .box1 .leftbutton,.neck .box1 .rightbutton{
@@ -144,6 +150,7 @@ a{
     bottom: 0;
     margin-top: auto;
     margin-bottom: auto;
+    z-index: 999;
 }
 .neck .box1 .leftbutton{
     left: 50px;
@@ -175,6 +182,7 @@ a{
     left: 0;
     margin-right: auto;
     margin-left: auto;
+    z-index: 999;
     /*margin-right: 15px;*/
 }
 .neck .box1 li{
@@ -185,6 +193,10 @@ a{
     float: left;
     background: white;
     border-radius: 50%;
+    transition: all .5s;
+}
+.neck .box1 li:hover{
+    background: #12b7de;
 }
 /*脖子的第二部分*/
 .neck .box2{
@@ -282,6 +294,19 @@ a{
     color: #07AF12;
 }
 /*衣领*/
+#border{
+    position: relative;
+}
+#border:after{
+    position: absolute;
+    content: "";
+    height: 2px;
+    background: #000000;
+    border-radius: 10px;
+    width: 80px;
+    left: 0;
+    top: 35px;
+}
 .collar{
     height: 310px;
     width: 79%;
