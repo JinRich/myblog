@@ -21,9 +21,11 @@
 }
 .message > .down p >img{
     margin-right: 10px;
+    opacity: 0.6;
 }
 textarea#lytext {
     width: 99%;
+    resize: none;
 }
 .message > .down p >a{
     display: block;
@@ -32,4 +34,38 @@ textarea#lytext {
     background: #1a1c0e;
     color: white;
     border-radius: 10%;
+}
+.content > li{
+    width: 96%;
+    padding: 20px 0 15px;
+    margin:  0 2%;
+    overflow: hidden;
+    border-top: #8e9397 1px dashed;
+}
+.content > li >img{
+    float: left;
+}
+.content > li >.conBox{
+    margin-left: 20px;
+    float: left;
+    width: 90%;
+}
+.content > li >.conBox div{
+    overflow: hidden;
+}
+.content > li >.conBox p.name{
+    font-size: 18px;
+    font-weight:bold ;
+    color: #24282c;
+    display: block;
+    float: left;
+}
+.content > li >.conBox p.con{
+    font-size: 15px;
+    margin-top: 6px;
+}
+.content > li >.conBox p.time{
+    font-size: 15px;
+    color: #949ca1;
+    float: right;
 }

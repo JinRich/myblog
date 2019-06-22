@@ -123,7 +123,7 @@ window.onload=function () {
         now=next;
     };
     //自动轮播
-    let t=setInterval(right.onclick,3000);
+        let t=setInterval(right.onclick,3000);
     let neckBox=document.querySelector(".neck>.box1");
     //鼠标移入轮播暂停
     neckBox.onmouseenter=function (){

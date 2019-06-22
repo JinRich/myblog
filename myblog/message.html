@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="css/about.css">
     <link rel="stylesheet" href="css/lead.css">
     <link rel="stylesheet" href="css/message.css">
+    <script src="js/message.js"></script>
 </head>
 <body>
 <a name="top"></a>
@@ -42,7 +43,7 @@
         <form action="">
             <p>您的姓名：<input type="text"> *</p>
             <p>选择头像：</p>
-            <p>
+            <p class="head">
                 <img src="./img/tx1.jpg" alt="">
                 <img src="./img/tx2.jpg" alt="">
                 <img src="./img/tx3.jpg" alt="">
@@ -52,12 +53,16 @@
                 <img src="./img/tx7.jpg" alt="">
                 <img src="./img/tx8.jpg" alt="">
             </p>
-            <p>留言内容：</p>
-            <textarea name="lytext" id="lytext" cols="60" rows="12"></textarea>
+            <p>留言内容：当前已填入字数:<span id="num"></span></p>
+            <textarea name="lytext" id="lytext" cols="60" rows="12" maxlength="100" placeholder="最多输入100字"></textarea>
             <p><a href="">提交</a></p>
         </form>
     </div>
+    <ul class="content"></ul>
 </div>
+
+
+
 <div class="gap"></div>
 <div class="footer">
     <div class="imgbox">
